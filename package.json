@@ -1,0 +1,27 @@
+{
+  "name": "require-hash",
+  "version": "1.0.0",
+  "description": "Split require calls into chunks",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./test/test.js",
+    "lint": "eslint ./index.js ./lib/*.js ./test/*.js",
+    "format": "prettier-eslint './index.js' './lib/*.js' './test/*.js' --write"
+  },
+  "keywords": [
+    "NodeJS",
+    "Performance"
+  ],
+  "author": "Even Stensberg <even-andre.stensberg@telia.no>",
+  "license": "MIT",
+  "dependencies": {
+    "get-caller-file": "^2.0.0",
+    "normalize-path": "^3.0.0",
+    "svg-parser": "^1.0.5"
+  },
+  "devDependencies": {
+    "eslint": "^5.6.0",
+    "eslint-plugin-node": "^7.0.1",
+    "prettier-eslint-cli": "^4.7.1"
+  }
+}
