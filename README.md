@@ -1,4 +1,4 @@
-# require-hash
+# require-id-hash
 
 ## Introduction
 
@@ -13,8 +13,8 @@ The library itself writes physical files (not that performant), but we might sup
 ## Installation
 
 ```sh
-npm install --save require-hash
-yarn add require-hash
+npm install --save require-id-hash
+yarn add require-id-hash
 ```
 
 ## Example
