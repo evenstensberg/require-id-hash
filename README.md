@@ -4,7 +4,7 @@
 
 This library aims to split up the files you require using node `require`. By intercepting the require call on hashed files (with the extention provided), later parsing and creating a new file based on the hash, one is able to split files into smaller chunks. 
 
-## Movivation
+## Motivation
 
 Maintaining a large collection of files can get messy and this library tries to make it easier for you to have all your files stored in one place, like `svg` files. By using the library, one could write a lot of icon classes which would get resolved to one svg file. In the future, we are going to integrate this in bundlers ( webpack, rollup), to make chunkSplitting easier than before. This could save a lot of space on the client side if done properly! For instance, by integrating this in webpack with webworkers or service workers, one could cache files that changes icons based on the file that is required. If you as a developer decides to have dynamic icons that change from time to time, we can swap the cache content based on one file with a hash instead of tons of icons that wouldn't get used again.
 
