@@ -12,7 +12,7 @@
     "NodeJS",
     "Performance"
   ],
-  "author": "Even Stensberg <even-andre.stensberg@telia.no>",
+  "author": "Even Stensberg <evenstensberg@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "get-caller-file": "^2.0.0",
