@@ -1,6 +1,6 @@
 {
   "name": "require-id-hash",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Split require calls into chunks",
   "main": "index.js",
   "scripts": {
