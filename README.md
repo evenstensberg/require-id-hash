@@ -45,8 +45,3 @@ jsFile() // wow!!
 ## Contributing
 
 This project is open to any contributions, minor, major, docs, any type of contribution is welcome! It is licensed under [MIT](https://opensource.org/licenses/MIT), and you are free to use it however you'd like!
-
-
-## Future
-
-In the future we are bringing this to bundlers and we will support other extensions. Please submit any feedback you might have!
